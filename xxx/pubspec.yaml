@@ -1,0 +1,179 @@
+name: restaurant_ui_kit
+description: A new Flutter application.
+
+version: 5.0+50
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  introduction_screen: ^1.0.5+2
+  shared_preferences: ^0.5.6+2
+  font_awesome_flutter: ^8.5.0
+  carousel_slider: ^1.4.1
+  url_launcher: ^5.4.1
+  provider: ^4.0.1
+  rating_bar: ^0.2.0
+  intl: ^0.16.0
+  smooth_star_rating: ^1.0.3
+  simple_animations: ^1.3.3
+  page_transition: ^1.1.4
+  gradient_text: ^1.0.2
+  flutter_launcher_icons: ^0.7.4
+  fluro: ^1.2.1
+  
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true 
+  ios: true
+  image_path: "assets/logoGabayar.png"
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/logoGabayar.png
+    - assets/
+    - assets/kuliner/
+    - assets/resto/01yam_resto.jpg
+    - assets/resto/02jeparamarina_resto.jpg
+    - assets/resto/03maribu_resto.jpg
+    - assets/resto/04gecho.jpg
+    - assets/resto/05Diana.jpg
+    - assets/resto/06sesaide.jpg
+    - assets/resto/07pmresto.jpg
+    - assets/kuliner/khas.jpg
+    - assets/kuliner/seafood.jpg
+    - assets/kuliner/nusantara.jpg
+    - assets/kuliner/fastfood.jpg
+    - assets/kuliner/kekinian.jpg
+    - assets/kuliner/cumi.jpg
+    - assets/kuliner/spaggeti.jpg
+    - assets/kuliner/pizza tuna.jpg
+    - assets/kuliner/steak_daging.jpg
+    - assets/kuliner/ayamkremes.jpg
+    - assets/kuliner/gudeksuyek.jpg
+    - assets/kuliner/baksobambu.jpg
+    - assets/kuliner/oporpanggang.jpg
+    - assets/kuliner/kerang.jpg
+    - assets/kuliner/sopudang.jpg
+    - assets/kuliner/lontongkrubyuk.jpeg
+    - assets/kuliner/Adon-Adon-Coro.jpg
+    - assets/kuliner/Bongko-Mento.jpg
+    - assets/kuliner/horok.jpeg
+    - assets/kuliner/Sup-Udang-Khas-Jepara.jpeg
+    - assets/kuliner/bontosan.png
+    - assets/wisata/awur.jpg
+    - assets/wisata/bandeng.jpg
+    - assets/wisata/benteng.jpg
+    - assets/wisata/bubrah.jpg
+    - assets/wisata/genuk.jpg
+    - assets/wisata/jop.jpg
+    - assets/wisata/kartini.jpg
+    - assets/wisata/mandalika.jpg
+    - assets/wisata/manik.jpg
+    - assets/wisata/mati.jpg
+    - assets/wisata/museum.jpg
+    - assets/wisata/nganten.jpg
+    - assets/wisata/panjang.jpg
+    - assets/wisata/pertapaan.jpg
+    - assets/wisata/pinus.jpg
+    - assets/wisata/pungkruk.jpg
+    - assets/wisata/sreni.jpg
+    - assets/wisata/terjun.jpg
+    - assets/wisata/tiara.png
+    - assets/kartini.jpg
+    - assets/p.panjang.jpg
+    - assets/screen1.png
+    - assets/screen2.png
+    - assets/screen3.png
+    - assets/screen4.png
+    - assets/pungkruk.jpg
+    - assets/Benteng.jpg
+    - assets/kura.jpg
+    - assets/wonderfullBanner.jpg
+    - assets/logoWJ.png
+    - assets/hotels/palmresort.jpg
+    - assets/hotels/jeparamarina.jpg
+    - assets/hotels/sekuro.jpg
+    - assets/hotels/ocean.jpg
+    - assets/hotels/dseason.jpg
+    - assets/hotels/jeparaindah.jpg
+    - assets/hotels/rimbadesa.jpg
+    - assets/hotels/kartinibeach.jpg
+    - assets/hotels/lovehotel.jpg
+    - assets/hotels/harummanis.jpg
+    - assets/hotels/seaside.jpg
+    - assets/hotels/syailendra.jpg
+    - assets/hotels/gecho.jpg
+    - assets/hotels/bayfront.jpg
+    - assets/hotels/kalingga.jpg
+    - assets/hotels/segoro.jpg
+    - assets/hotels/sriya.jpg
+    - assets/wisata/akar.jpg
+    - assets/Populer/
+    - assets/events/
+    - assets/fitness_app/
+    - assets/wm/ 
+    - assets/
+   
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  fonts:
+  - family: Century
+    fonts: 
+      - asset: assets/fonts/CenturyGothic.ttf
+        weight: 500
+  - family: WorkSans
+    fonts:
+      - asset: assets/fonts/WorkSans-Regular.ttf
+      - asset: assets/fonts/WorkSans-Medium.ttf
+        weight: 500
+      - asset: assets/fonts/WorkSans-SemiBold.ttf
+        weight: 600
+      - asset: assets/fonts/WorkSans-Bold.ttf
+        weight: 700
+  - family: Roboto
+    fonts:
+      - asset: assets/fonts/Roboto-Bold.ttf
+      - asset: assets/fonts/Roboto-Regular.ttf
+      - asset: assets/fonts/Roboto-Medium.ttf
+        weight: 400
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
